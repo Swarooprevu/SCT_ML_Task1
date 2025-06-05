@@ -1,6 +1,20 @@
-#House Price Prediction using Linear Regression
-This project focuses on predicting house prices using a simple linear regression model. The model is trained on data that includes the square footage of the house, along with the number of bedrooms and bathrooms. These features are used to estimate the selling price of a house.
+#**House Price Prediction using Linear Regression**
 
-The goal is to understand how each of these factors influences the final price and to build a predictive model that can assist in real estate pricing decisions. The dataset used contains historical house listings with corresponding prices, and the model is evaluated using standard regression metrics.
+📌 Problem Statement
+The objective of this project is to build a machine learning model that can predict the price of a house based on key features such as the size in square feet, number of bedrooms, number of bathrooms, and other relevant housing details. By understanding the relationships between these factors and house prices, we aim to provide a reliable tool for estimating real estate value.
 
-This project demonstrates the application of machine learning in the housing market and offers insights into how linear regression can be used for price prediction tasks.
+📁 Dataset Description
+The dataset used for this project is USA_Housing.csv, which includes the following columns:
+Avg. Area Income – Average income of residents in the area.
+Avg. Area House Age – Average age of houses in the area.
+Avg. Area Number of Rooms – Average number of rooms in the houses.
+Avg. Area Number of Bedrooms – Average number of bedrooms.
+Area Population – Population of the area.
+Price – Target variable; price of the house.
+Address – Address of the house (not used in the model).
+This dataset provides a comprehensive view of various socio-economic and physical factors that can influence house prices.
+
+🧠 Project Overview
+This project applies Linear Regression, a supervised machine learning technique, to analyze and predict housing prices. By training the model on the available dataset, we aim to understand how different variables affect pricing and use that insight for future predictions.
+
+The model focuses on numeric predictors and excludes textual fields like the address. After training, model performance is assessed using common evaluation metrics, and the results help illustrate the predictive strength of the regression approach in real estate applications.
